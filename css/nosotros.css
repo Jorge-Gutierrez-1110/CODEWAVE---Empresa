@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/oficina.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.txt-banner{
+    background: linear-gradient( to bottom, rgb(0 0 0 / .75), rgb(0 0 0 / .75));
+    width: 75%;
+    padding: 10px;
+    color: #fff;
+}
+
+.txt-banner h1{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-banner p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+
+
+.barra{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.barra-izq{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.barra-izq img{
+    height: 50px;
+}
+
+.barra-der{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.barra-der a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 20px;
+    transition: all 1s ease;
+}
+
+.barra-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+    border-bottom: 1px solid #3498DB;
+}
+
+
+
+.tarjeta{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tarjeta-rev{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.tarjeta-izq{
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-izq img{
+    width: 240px;
+    height: 270px;
+}
+
+.tarjeta-izq a{
+    text-decoration: none;
+    color: black;
+}
+
+.tarjeta-izq h3{
+    margin: 10px 0px;
+}
+
+.tarjeta-der{
+    width: 450px;
+    margin: 5px;
+}
+
+.tarjeta-der h3{
+    margin: 20px 0px;
+}
+
+.tarjeta-der h3 b{
+    color: #2BA319;
+}
+
+.tarjeta-der p{
+    border-bottom: 1px solid #3498DB;
+}
+
+
+
+.container-info-empresa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-info-empresa-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-empresa-izq{
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-empresa-izq h3{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.info-empresa-izq p{
+    margin-top: 15px;
+}
+
+.info-empresa-izq p b{
+    color: #2BA319;
+}
+
+.info-empresa-izq a{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.info-empresa-izq a svg{
+    margin-left: 5px;
+}
+
+.info-empresa-izq a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}
+
+.info-empresa-der{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-empresa-der img{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-top: 3px solid #3498DB;
+}
+
+.footer-izq{
+    margin: 5px;
+    padding: 10px;
+}
+
+.footer-izq h3{
+    margin-top: 50px;
+}
+
+.footer-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-sub img{
+    height: 50px;
+    margin: 5px;
+}
+
+.footer-sub b{
+    margin: 5px;
+}
+
+.footer-der{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-der a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.footer-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}

@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.barra{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.barra-izq{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.barra-izq img{
+    height: 50px;
+}
+
+.barra-der{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.barra-der a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 20px;
+    transition: all 1s ease;
+}
+
+.barra-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+    border-bottom: 1px solid #3498DB;
+}
+
+
+
+.title-docs{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container-docs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.docs{
+    padding: 20px;
+    margin: 15px;
+    margin-bottom: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #2F2E41;
+    border-radius: 20px;
+}
+
+.docs img{
+    width: 350px;
+    padding: 10px;
+}
+
+.docs a{
+    text-decoration: none;
+    color: black;
+    margin: 5px 0px;
+}
+
+.docs a h3:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}
+
+.docs a h3{
+    transition: all 1s ease;
+    color: black;
+    margin: 5px 0px;
+}
+
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-top: 3px solid #3498DB;
+}
+
+.footer-izq{
+    margin: 5px;
+    padding: 10px;
+}
+
+.footer-izq h3{
+    margin-top: 50px;
+}
+
+.footer-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-sub img{
+    height: 50px;
+    margin: 5px;
+}
+
+.footer-sub b{
+    margin: 5px;
+}
+
+.footer-der{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-der a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.footer-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}

@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to bottom, rgb(0 0 0 / .75), rgb(0 0 0 / .75)), url(../img/banner.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img{
+    width: 350px;
+}
+
+.txt-banner{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px;
+    color: #fff;
+}
+
+.txt-banner h1{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-banner p{
+    margin: 15px 5px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+
+
+.barra{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.barra-izq{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.barra-izq img{
+    height: 50px;
+}
+
+.barra-der{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.barra-der a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 20px;
+    transition: all 1s ease;
+}
+
+.barra-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+    border-bottom: 1px solid #3498DB;
+}
+
+
+
+.title-expertise{
+    margin: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-expertise h3{
+    margin: 10px 0px;
+    font-size: 35px;
+}
+
+.title-expertise p{
+    font-size: 16px;
+}
+
+
+
+.container-info-empresa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-info-empresa-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-empresa-izq{
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-empresa-izq h3{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.info-empresa-izq p{
+    margin-top: 15px;
+}
+
+.info-empresa-izq p b{
+    color: #2BA319;
+}
+
+.info-empresa-izq a{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.info-empresa-izq a svg{
+    margin-left: 5px;
+}
+
+.info-empresa-izq a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}
+
+.info-empresa-der{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-empresa-der img{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+.container-expertise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.seccion-exp{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    border: #242424 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.exp-izq{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-izq img{
+    width: 100px;
+    height: 100px;
+}
+
+.exp-der{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.exp-der h3{
+    margin-bottom: 8px;
+}
+
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-top: 3px solid #3498DB;
+}
+
+.footer-izq{
+    margin: 5px;
+    padding: 10px;
+}
+
+.footer-izq h3{
+    margin-top: 50px;
+}
+
+.footer-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-sub img{
+    height: 50px;
+    margin: 5px;
+}
+
+.footer-sub b{
+    margin: 5px;
+}
+
+.footer-der{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-der a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.footer-der a:hover{
+    color: #3498DB;
+    transition: all 1s ease;
+}
